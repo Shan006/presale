@@ -1,0 +1,321 @@
+@media (max-width: 2560px) {
+  .card-bar {
+    height: 500px;
+  }
+
+  .token-detail {
+    height: 650px;
+  }
+
+  .about-description {
+    height: 450px;
+  }
+
+  .token-billion {
+    margin-top: 220px;
+  }
+
+  .roadmap-title {
+    margin-top: 190px;
+  }
+
+  .roadmap-subtitle {
+    margin-top: 220px;
+  }
+}
+
+@media (max-width: 1980px) {
+  .card-bar {
+    height: 380px;
+  }
+
+  .token-detail {
+    height: 650px;
+  }
+
+  .roadmap-title {
+    margin-top: 190px;
+  }
+
+  .roadmap-subtitle {
+    margin-top: 220px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .card-bar {
+    height: 300px;
+  }
+
+  .about-description {
+    height: 450px;
+  }
+
+  .token-detail {
+    height: 650px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .presale-buy {
+    width: 45%;
+    height: 650px;
+  }
+
+  .token-billion {
+    margin-top: 200px;
+  }
+
+  .token-detail {
+    height: 730px;
+  }
+
+  .token-header {
+    height: 150px;
+  }
+
+  .token-address {
+    height: 120px;
+  }
+
+  .roadmap-title {
+    margin-top: 200px;
+  }
+
+  .about-description {
+    height: 570px;
+  }
+}
+
+@media (max-width: 768px) {
+  .presale-buy {
+    width: 100% !important;
+    height: 620px;
+  }
+
+  .about-description {
+    height: 450px;
+  }
+
+  .tokenomics-title {
+    margin-top: 150px;
+  }
+
+  .token-billion {
+    margin-top: 180px;
+  }
+
+  .roadmap-title {
+    margin-top: 160px;
+  }
+
+  .roadmap-subtitle {
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card-bar {
+    height: 750px;
+  }
+
+  .total {
+    height: 320px !important;
+  }
+
+  .progress-container {
+    width: 90% !important;
+    margin-left: 50px !important;
+  }
+
+  .support-multichain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .progress-wrapper {
+    width: 80px;
+  }
+
+  .progress-wrapper span span {
+    font-size: 10px;
+  }
+
+  .token-detail {
+    height: 660px;
+  }
+
+  .token-address {
+    height: 80px;
+  }
+
+  .token-header {
+    height: 150px;
+  }
+
+  .about-description {
+    height: 420px;
+  }
+
+  .tokenomics {
+    height: 400px;
+  }
+
+  .tokenomics-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .tokenomics-title {
+    margin-top: 100px;
+  }
+
+  .tokenomics-subtitle {
+    margin-top: 120px;
+  }
+
+  .roadmap {
+    height: 400px;
+  }
+
+  .roadmap-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .roadmap-title {
+    margin-top: 100px;
+  }
+
+  .roadmap-subtitle {
+    margin-top: 120px;
+  }
+
+  .member {
+    width: 270px;
+  }
+
+  .footer-bar {
+    height: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-bar {
+    height: 670px;
+  }
+
+  .total {
+    height: 330px !important;
+  }
+
+  .progress-container {
+    width: 90% !important;
+    margin-left: 50px !important;
+  }
+
+  .support-multichain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .progress-wrapper {
+    width: 80px;
+  }
+
+  .progress-wrapper span span {
+    font-size: 10px;
+  }
+
+  .token-detail {
+    height: 660px;
+  }
+
+  .token-header {
+    height: 150px;
+  }
+
+  .about-description {
+    height: 450px !important;
+  }
+
+  .tokenomics {
+    height: 400px;
+  }
+
+  .roadmap {
+    height: 400px;
+  }
+
+  .member {
+    width: 270px;
+  }
+
+  .footer-bar {
+    height: 120px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-bar {
+    height: 600px;
+  }
+
+  .total {
+    height: 360px !important;
+  }
+
+  .progress-container {
+    width: 90% !important;
+    margin-left: 50px !important;
+  }
+
+  .support-multichain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .progress-wrapper {
+    width: 80px;
+  }
+
+  .progress-wrapper span span {
+    font-size: 10px;
+  }
+
+  .token-detail {
+    height: 670px;
+  }
+
+  .token-address {
+    height: 90px;
+  }
+
+  .token-header {
+    height: 150px;
+  }
+
+  .token-address {
+    padding-top: 5px !important;
+  }
+
+  .about-description {
+    height: 530px !important;
+  }
+
+  .tokenomics {
+    height: 400px;
+  }
+
+  .roadmap {
+    height: 400px;
+  }
+
+  .member {
+    width: 270px;
+  }
+
+  .footer-bar {
+    height: 120px;
+  }
+}
