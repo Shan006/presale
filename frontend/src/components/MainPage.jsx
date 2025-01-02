@@ -153,46 +153,47 @@ const MainPage = () => {
         setLoading(false);
         return;
       }
-    } else if (paymenType === "TON") {
-      if (Number(amount) > Number(tonBalance)) {
-        toast.error("Not enough TON balance");
-        setLoading(false);
-        return;
-      }
-      if (!isConnected || chainId !== base.id) {
-        toast.info("Please connect your ETH wallet");
-        setLoading(false);
-        return;
-      }
-      const toNano = amount * 1_000_000_000;
-      const transaction = {
-        messages: [
-          {
-            address: "0QCEqTqtwAvKNy0AvTO5mCVopy1ssN_L87RZX8Eb6mA2i2rV",
-            amount: toNano,
-          },
-        ],
-      };
-      debugger;
-      try {
-        const result = await tonConnectUI.sendTransaction(transaction);
-        if (result.boc) {
-          const decodedBoc = Buffer.from(result.boc, "base64");
-          const hexString = decodedBoc.toString("hex");
-          const response = await buyWithTon({
-            data: hexString,
-            recipient: address,
-          });
-          if (response.ok) {
-          }
-        }
-      } catch (err) {
-        console.log("buy with ton error: ", err);
-      } finally {
-        setLoading(false);
-        return;
-      }
-    }
+    } 
+    // else if (paymenType === "TON") {
+    //   if (Number(amount) > Number(tonBalance)) {
+    //     toast.error("Not enough TON balance");
+    //     setLoading(false);
+    //     return;
+    //   }
+    //   if (!isConnected || chainId !== base.id) {
+    //     toast.info("Please connect your ETH wallet");
+    //     setLoading(false);
+    //     return;
+    //   }
+    //   const toNano = amount * 1_000_000_000;
+    //   const transaction = {
+    //     messages: [
+    //       {
+    //         address: "0QCEqTqtwAvKNy0AvTO5mCVopy1ssN_L87RZX8Eb6mA2i2rV",
+    //         amount: toNano,
+    //       },
+    //     ],
+    //   };
+    //   debugger;
+    //   try {
+    //     const result = await tonConnectUI.sendTransaction(transaction);
+    //     if (result.boc) {
+    //       const decodedBoc = Buffer.from(result.boc, "base64");
+    //       const hexString = decodedBoc.toString("hex");
+    //       const response = await buyWithTon({
+    //         data: hexString,
+    //         recipient: address,
+    //       });
+    //       if (response.ok) {
+    //       }
+    //     }
+    //   } catch (err) {
+    //     console.log("buy with ton error: ", err);
+    //   } finally {
+    //     setLoading(false);
+    //     return;
+    //   }
+    // }
     try {
       await buy(paymenType, amount);
       toast.success("Buy Sucessful");

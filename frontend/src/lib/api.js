@@ -10,11 +10,11 @@ const axiosInstance = axios.create({
   },
 });
 
-export const buyWithTon = async (data) => {
-  try {
-    const response = await axiosInstance.post("/buy-with-ton", data);
-    return response.data;
-  } catch (err) {
-    console.log("buy with ton error: ", err);
-  }
-};
+// export const buyWithTon = async (data) => {
+//   try {
+//     const response = await axiosInstance.post("/buy-with-ton", data);
+//     return response.data;
+//   } catch (err) {
+//     console.log("buy with ton error: ", err);
+//   }
+// };
